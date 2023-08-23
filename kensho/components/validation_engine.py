@@ -147,7 +147,10 @@ class ValidationEngine:
         )
                 
         result_df = result.checkResultsAsDataFrame(self.spark, result).pandas_api()
+
+        print('test')
         #extract rule_id from constraint message TODO improve
+
         result_df["rule_id"] = result_df["constraint_message"].apply(
             lambda x: x.split(" ")[-1]
         )

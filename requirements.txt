@@ -1,4 +1,6 @@
-pandas
-numpy
+pandas==1.5.3
+numpy==1.25.2
 boto3
-pydeequ
+pydeequ==1.1.0
+pyspark==3.3.2
+pyarrow==13.0.0
