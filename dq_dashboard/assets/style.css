@@ -1,0 +1,15 @@
+.dashboard-heading {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dq-gauge-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dq-gauge-obj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
